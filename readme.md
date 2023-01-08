@@ -9,7 +9,7 @@ copyleft©2023: vous avez l'autorisation de copier, modifier et distriuer les co
 ## Rapport du projet
 ---------------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------
+
 Dans ce rapport, je ferais une synthèse assez explicite de cette formation openclassroom, sur comment faire un backend en javascript. 
 Dans ce travail, je vais partir d'un template angularjs et construire le backend de ce denier.  
   I install all tools for this work:  
@@ -35,13 +35,13 @@ Nous avons déjà installé notre frontend, maintenant nous allons nous conscent
 *  Nous installons maintenant express qui est une librairie javascript pour la construction d'application du type client-side. en utilisant la commande `npm install express` toujours dans le dossier backend.
    * Dans le fichier __`app.js`__ nous allons crée des middleware qui sont des fonctions express qui traitent les réponse et requête.
 
-__Remarque :__ Une API (Application Programming Interface) ou interface de programmation d'application est programme qui est utilisé pour faire le lien entre deux ou plusieurs partie du code. Des concepts sont beaucoup utilisés, *__CRUD__* pour `Create-Read-Update-Delete` et *__CORS__* pour `Cross-Origin-Ressource-Sharing` qui est une mésure de sécurité entre le frontend et le backend lorsque les deux ne partagent pas la même origine.
+__Remarque :__ Une API (Application Programming Interface) ou interface de programmation d'application est programme qui est utilisé pour faire le lien entre deux ou plusieurs partie du code. Des concepts sont beaucoup utilisés, *__CRUD__* pour `Create-Read-Update-Delete` et *__CORS__* pour `Cross-Origin-Ressource-Sharing` qui est une mésure de sécurité entre le frontend et le backend lorsque les deux ne partagent pas la même origine(le même localhostou les ports sur lesquels le front et le back tournent).
 
 ---------------------------------------------------------------------------------------------------------
 ## INSTALLATION 
 ---------------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------
+
 __NB :__ Il s'agit d'une application web permettant aux utilisateurs de mettre en vente leur vieux objets
 1. Ouvrir le terminal et faire:
    1. `mkdir GO-FULLSTACK`
